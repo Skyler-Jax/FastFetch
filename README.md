@@ -30,4 +30,4 @@ glyphs. I recommend using a NerdFont in your VT to get the proper display.**
 ## Laptops/Config 4
 - further refinement of Config 3 with more sub-items and modules
 - final laptop revision
-<img width="1120" height="867" alt="image" src="https://github.com/user-attachments/assets/367dceab-bb8c-49c4-a60d-ee2c2c52c31a" />
+<img width="1117" height="830" alt="image" src="https://github.com/user-attachments/assets/ca76b3be-a7be-4658-b8c7-d888babdeecf" />
