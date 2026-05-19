@@ -47,6 +47,18 @@
             "keyColor": "green"
         },
         {
+            "type": "bios",
+            "key": "    {$7}┃{$3}   ├   : {$1}{$7}┃",
+            "format": "BIOS v.{version} [{type}]",
+            "keyColor": "green"
+        },
+        {
+            "type": "tpm",
+            "key": "    {$7}┃{$3}   │ ╰   {$1}{$7}┃",
+            "format": "TPM v.{version}",
+            "keyColor": "green"
+        },
+        {
             "type": "cpu",
             "key": "    {$7}┃{$3}   ├   : {$1}{$7}┃",
             "format": "{name} ({cores-physical}C/{cores-logical}T) @ {freq-max}",
@@ -209,18 +221,6 @@
             "keyColor": "green"
         },
         {
-            "type": "bios",
-            "key": "    {$7}┃{$6}   ├   : {$1}{$7}┃",
-            "format": "BIOS v.{version} [{type}]",
-            "keyColor": "yellow"
-        },
-        {
-            "type": "tpm",
-            "key": "    {$7}┃{$6}   │ ╰   {$1}{$7}┃",
-            "format": "TPM v.{version}",
-            "keyColor": "yellow"
-        },
-        {
             "type": "packages",
             "key": "    {$7}┃{$6}   ├ 󰏗  : {$1}{$7}┃",
             "keyColor": "yellow"
@@ -229,6 +229,12 @@
             "type": "shell",
             "key": "    {$7}┃{$6}   ╰ 󰞷  : {$1}{$7}┃",
             "format": "{pretty-name} v.{version}",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "editor",
+            "key": "    {$7}┃{$6}     ╰   {$1}{$7}┃",
+            "format": "{exe-name} v.{version}",
             "keyColor": "yellow"
         },
         {
@@ -250,7 +256,13 @@
         },
         {
             "type": "wmtheme",
-            "key": "    {$7}┃{$4}   ├ 󰉦  : {$1}{$7}┃",
+            "key": "    {$7}┃{$4}   │ ╰ 󰉦  {$1}{$7}┃",
+            "format": "{result} theme",
+            "keyColor": "blue"
+        },
+        {
+            "type": "icons",
+            "key": "    {$7}┃{$4}   │ ╰   {$1}{$7}┃",
             "keyColor": "blue"
         },
         {
