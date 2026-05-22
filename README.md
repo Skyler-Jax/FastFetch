@@ -31,3 +31,7 @@ glyphs. I recommend using a NerdFont in your VT to get the proper display.**
 - further refinement of Config 3 with more sub-items and modules
 - final laptop revision
 <img width="1117" height="830" alt="image" src="https://github.com/user-attachments/assets/ca76b3be-a7be-4658-b8c7-d888babdeecf" />
+
+## Server w/ DE / Combo Workstation/Server
+- Laptop Config 4 with a few modules adjusted to make more sense for a server with a desktop environment or a server/ws combo
+  <img width="1116" height="765" alt="image" src="https://github.com/user-attachments/assets/4a6b02fc-4755-408e-a669-8259448abf6a" />
